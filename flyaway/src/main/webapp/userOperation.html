@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>UserOperation</title>
+</head>
+<body bgcolor="#ADD8E6">
+<center>
+<h1>Add user:</h1>
+<form action="./AddUser" method="post">
+<label>firstName:</label><input type="text" name="firstname">
+<label>lastName:</label><input type="text" name="lastname">
+<label>email</label><input type="text" name="email">
+<label>password:</label><input type="text" name="password">
+<input type="submit" value="Adduser"></form><br><br><br>
+<h1>GetUsers:</h1>
+<form action="./GetallUsers" method="post">
+<input type="submit" value="AllUsers"></form><br><br>
+<h1>DeleteUser:</h1>
+<form action="./DeleteUser" method="post">
+<input type="text" name="id">
+<input type="submit" value="Deleteuser"></form>
+</center>
+
+</body>
+</html>

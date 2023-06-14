@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FLight Operations</title>
+</head>
+<body bgcolor="#ADD8E6">
+<center>
+	<hr>
+	<h1>Add Flight</h1>
+	<form name="addflight" method="post" action="./addflight">
+	AirlineID:<input type="text" name="airline"><br/>
+	    FlightId:<input type="text" name="fid"><br/>
+		Source : <input type="text" name="source"> <br/>
+		Destination : <input type="text" name="destination"> <br/>
+	    Numberofseats:<input type="text" name="seats"> <br/>
+	    Price : <input type="number" name="price"> <br/>
+		Date of Arrival : <input type="date" name="datea"> <br/>
+		Date of Departure: <input type="date" name="dated"> <br/>
+		<br/>
+		<input type="submit" value="AddFlight">
+	</form>
+	<br><br><br>
+	<form name ="seeAllFlights" method="GET" action="./SeeAllFlights">
+		<input type="submit" value="See All Flights">
+	</form>	
+	<form name="deleteFlight" method="GET" action="./deleteflight">
+	enter FlightId:<input type="text" name="did">
+	<input type="submit" value="deleteFlight">
+	</form>
+	</center>
+
+</body>
+</html>
